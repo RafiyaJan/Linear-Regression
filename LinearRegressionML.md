@@ -11,9 +11,9 @@ This implies, (X, Y) will denote one training example.
 For some specific  ith  point, a pair (x<sup>(i)</sup>, y<sup>(i)</sup>) is called the training example and the dataset contains a list of n such training examples  where {x<sup>(i)</sup>, y<sup>(i)</sup>; i=1,2,….n)  } specifies training set. In a regression problem, we try to predict the target variable which is continuous and our objective is to learn a function h: X→y   (also called a hypothesis) such that h(x) is a good predictor for the corresponding value of y. 
 Thus, mathematically  we can write 
 
->Let **D={x<sup>(i)</sup>, y<sup>(i)</sup>)**  ∣ **x<sup>(i)</sup> ∈  X**,**y<sup>(i)</sup>∈ Y, i= 1,2,……N}**,<br>
+##### Let **D={x<sup>(i)<sup>→</sup></sup>, y<sup>(i)</sup>)**  ∣ **x<sup>(i)</sup> ∈  X**,**y<sup>(i)</sup>∈ Y, i= 1,2,……N}**,<br>
 
-> **X={ x | x ∈ ℝ<sub>d</sub> }** and **Y= { y  |  y ∈ ℝ}**
+#####  **X={ x<sup>→</sup> | x<sup>→</sup> ∈ ℝ<sup>d</sup> }** and **Y= { y  |  y ∈ ℝ}**
 }
 
 And x 's  are  the d-dimensional vectors and y is a real value to be predicted.The Linear regression model for d-dimensional data introduces a weight vector w =w<sub>1</sub>,w<sub>2</sub>,...,w<sub>d</sub> and bias value w0 to predict the output value as a linear combination of the input features x<sup>i</sup><sub>j</sub>  ( where x<sup>i</sup><sub>j</sub> denotes the j<sup>th</sup> feature of the i<sup>th</sup>  point )  of the input x<sup>i<sup>→</sup></sup>as
